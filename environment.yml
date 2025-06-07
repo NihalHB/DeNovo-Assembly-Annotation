@@ -1,0 +1,28 @@
+name: argania-pipeline
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - r-base=4.2
+  - r-tidyverse
+  - r-randomforest
+  - r-caret
+  - r-pROC
+  - r-rtsne
+  - r-factoextra
+  - r-readr
+  - fastqc
+  - trimmomatic
+  - spades
+  - cd-hit
+  - transdecoder
+  - blast
+  - hmmer
+  - repeatmasker
+  - repeatmodeler
+  - interproscan
+  - eggnog-mapper
+  - salmon
+  - biopython
